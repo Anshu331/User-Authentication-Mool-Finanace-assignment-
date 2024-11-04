@@ -3,11 +3,11 @@
 This project implements a basic user authentication system with registration, login, and profile access functionalities. It includes secure user authentication and authorization mechanisms using JWT, with all endpoints thoroughly tested and documented in Postman.
 
 ## Features
-- **User Registration**: Allows users to register with unique email and password, with password complexity validation.
+- **User Registration**: Allows users to register with unique email and password.
 - **User Login**: Validates user credentials and generates a secure token upon successful login.
 - **Protected Route**: A profile route that can only be accessed with a valid token.
 - **Error Handling**: Returns descriptive error messages and appropriate HTTP status codes for various scenarios.
-- **Data Validation**: Validates required fields, email format, and password strength; also sanitizes inputs.
+- **Data Validation**: Validates required fields, email format, and sanitizes inputs.
 - **Postman Collection**: Includes tests and documentation for each endpoint.
 
 ## Prerequisites
@@ -16,14 +16,14 @@ This project implements a basic user authentication system with registration, lo
 - **MongoDB**: MongoDB instance for database operations. [MongoDB Setup Guide](https://www.mongodb.com/try/download/community).
 
 ## Technology Stack
-- **
+
   - Backend: Node.js, Express.js
   - Database: MongoDB, Mongoose
   - Authentication: JWT (jsonwebtoken), bcrypt.js
   - Environment Variables: dotenv
-  - Email: nodemailer (optional)
+  - Email: nodemailer 
   - Testing & Documentation: Postman
-- **
+  
 
 ## Setup Instructions
 
